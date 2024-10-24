@@ -74,9 +74,9 @@ Endpoint: /summary
 
 Method: GET
 
-Description: Retrieves the latest daily weather summary from the database.
+- Description: Retrieves the latest daily weather summary from the database.
 
-Design Choices
+# Design Choices
 SQLite Database: Chosen for simplicity and ease of use.
 
 Flask Framework: Provides a lightweight web server and RESTful API.
@@ -94,17 +94,17 @@ Simulate API calls at configurable intervals and ensure the system retrieves wea
 
 Temperature Conversion:
 
-Test the conversion of temperature values from Kelvin to Celsius (or Fahrenheit) based on user preference.
+- Test the conversion of temperature values from Kelvin to Celsius (or Fahrenheit) based on user preference.
 
 Daily Weather Summary:
 
-Simulate a sequence of weather updates for several days and verify that daily summaries are calculated correctly.
+- Simulate a sequence of weather updates for several days and verify that daily summaries are calculated correctly.
 
 Alerting Thresholds:
 
-Define and configure user thresholds for temperature or weather conditions. Simulate weather data exceeding or breaching the thresholds and verify that alerts are triggered correctly.
+- Define and configure user thresholds for temperature or weather conditions. Simulate weather data exceeding or breaching the thresholds and verify that alerts are triggered correctly.
 
 - Future Enhancements
-Additional Weather Parameters: Extend the system to support humidity, wind speed, etc.
+   Additional Weather Parameters: Extend the system to support humidity, wind speed, etc.
 
 Weather Forecasts: Implement features to retrieve and summarize weather forecasts.
