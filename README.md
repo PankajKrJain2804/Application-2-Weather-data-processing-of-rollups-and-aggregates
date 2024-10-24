@@ -1,4 +1,6 @@
-﻿# Real-Time weather-data-processing-of-rollups-and-aggregates
+﻿# Application 2 : Real-Time Data Processing System for Weather Monitoring with Rollups and Aggregates
+
+> Zeotap | Software Engineer Intern | Assignment | Application 2
 
 # introduction
 
