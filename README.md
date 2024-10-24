@@ -27,14 +27,16 @@ This project is a real-time data processing system designed to monitor weather c
    git clone https://github.com/PankajKrJain2804/weather-data-processing-of-rollups-and-aggregates.git
 
    
-Create and Activate a Virtual Environment:
+# Create and Activate a Virtual Environment:
 
 sh
 
 python -m venv venv
 venv\Scripts\activate  # On Windows
-# source venv/bin/activate  # On macOS/Linux
-Install Dependencies:
+
+- source venv/bin/activate  # On macOS/Linux
+
+# Install Dependencies:
 
 sh
 
